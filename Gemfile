@@ -38,3 +38,6 @@ end
 
 # Adding bcrypt for SecurePassword
 gem 'bcrypt'
+
+# Adding pagination elements
+gem 'will_paginate'

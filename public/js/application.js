@@ -60,7 +60,14 @@ function ajaxAnswerVote() {
 	});
 }
 
+function toggleAnswerEditor() {
+	$('.answer-editor-button').on('click', function() {
+		$(this).next().toggle();
+	});
+}
+
 $(document).ready(function() {
 	ajaxQuestionVote();
 	ajaxAnswerVote();
+	toggleAnswerEditor();
 })
